@@ -1,0 +1,22 @@
+header,
+main,
+footer {
+    background-color: red;
+    width: 800px;
+    margin-left: calc((100% - 800px) / 2); 
+} 
+
+header {
+    margin-top: 100px;
+    background-color:lightblue;
+    
+}
+
+main {
+    background-color:lightcoral;
+     
+}
+footer {
+    background-color: lightgoldenrodyellow;
+ 
+} 
