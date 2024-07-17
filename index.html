@@ -13,36 +13,44 @@
     <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/main.css">
 
 
 </head>
 
 <body>
-    <header>
-        <img src="./img/Clay.svg" alt="Logo">
-        <nav>
-            <a href="#">About</a>
-            <a href="#">Portfolio</a>
-            <a href="#">Job</a>
-            <a href="#">Contact</a>
+    <header class="container">
+        <img class="logo" src="./img/Clay.svg" alt="Logo">
+        <nav class="main-nav">
+            <a class="link" href="#">About</a>
+            <a class="link" href="#">Portfolio</a>
+            <a class="link" href="#">Job</a>
+            <a class="link" href="#">Contact</a>
         </nav>
     </header>
 
-    <main>
-        <div>
-            <h1>404 Lost in Space</h1>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quos aliquam minus consectetur corporis velit sequi obcaecati, omnis, et saepe porro ipsam assumenda repudiandae?</p>
-            <div>
-                <a href="#">Go home</a>
-                <a href="#">Back</a>
+    <main class="container">
+        <div class="left-column">
+            <h1 class="main-title"><span>404</span> Lost in Space</h1>
+            <p class="description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat quos aliquam minus consectetur corporis velit sequi obcaecati, omnis, et saepe porro ipsam assumenda repudiandae?</p>
+            <div class="button-group">
+                <a class="button" href="#">Go home</a>
+                <a class="button" href="#">Back</a>
             </div>
         </div>
-        <img src="./img/space.png" alt="Astronautas mobilus">
+        <img class="right-column" src="./img/space.png" alt="Astronautas mobilus">
     </main>
 
-    <footer>
-        FOOTER CONTENT
+    <footer class="container">
+        <div class="socials">
+            <i class="fa fa-address-book-o" aria-hidden="true"></i>
+            <a href="#" target="_blank">FB</a>
+            <a href="#" target="_blank">TW</a>
+            <a href="#" target="_blank">IG</a>
+            <a href="#" target="_blank">LN</a>
+        </div>
+        <p class="copyright">&copy; 2024 - All rights reserved</p>
     </footer>
 </body>
 
